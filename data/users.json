@@ -1,0 +1,18 @@
+{
+   "krzysztof": {
+      "encryptedPassword": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "username": "krzysztof"
+   },
+   "test": {
+      "encryptedPassword": "a15f8ae07675bfb96e084bfb4f52fb2c22091061aae86e0eb76a55f4e52dd74e",
+      "username": "test"
+   },
+   "user": {
+      "encryptedPassword": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "username": "user"
+   },
+   "user2": {
+      "encryptedPassword": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "username": "user2"
+   }
+}

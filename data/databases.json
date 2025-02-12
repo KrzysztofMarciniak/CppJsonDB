@@ -1,0 +1,16 @@
+{
+    "databases": [
+        {
+            "name": "baza",
+            "owner": "krzysztof",
+            "users": [
+                {
+                    "permissions": [
+                        "READ"
+                    ],
+                    "username": "user"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "database_name": "baza",
+    "tables": [
+        {
+            "columns": [
+                {
+                    "name": "id",
+                    "properties": [
+                        "PRIMARY KEY",
+                        "AUTO_INCREMENT"
+                    ],
+                    "type": "int"
+                },
+                {
+                    "name": "name",
+                    "properties": [],
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "properties": [
+                        "UNIQUE"
+                    ],
+                    "type": "string"
+                }
+            ],
+            "rows": [
+                {
+                    "id": 1,
+                    "name": "nfenfun"
+                },
+                {
+                    "id": 2,
+                    "name": "mfimfeimfemf"
+                },
+                {
+                    "email": "fmdmwimaimdiwa",
+                    "id": 3,
+                    "name": "fjefeifmeim"
+                }
+            ],
+            "table_name": "users"
+        },
+        {
+            "columns": [
+                {
+                    "name": "id",
+                    "properties": [
+                        "PRIMARY KEY",
+                        "AUTO_INCREMENT"
+                    ],
+                    "type": "int"
+                },
+                {
+                    "name": "title",
+                    "properties": [],
+                    "type": "string"
+                },
+                {
+                    "name": "content",
+                    "properties": [],
+                    "type": "string"
+                }
+            ],
+            "rows": [
+                {
+                    "content": "CONTENT",
+                    "id": 1,
+                    "title": "TITLE"
+                }
+            ],
+            "table_name": "posts"
+        },
+        {
+            "columns": [
+                {
+                    "name": "user_id",
+                    "properties": [
+                        "FOREIGN KEY",
+                        {
+                            "column": "id",
+                            "table": "users"
+                        }
+                    ],
+                    "type": "int"
+                },
+                {
+                    "name": "post_id",
+                    "properties": [
+                        "FOREIGN KEY",
+                        {
+                            "column": "id",
+                            "table": "posts"
+                        }
+                    ],
+                    "type": "int"
+                }
+            ],
+            "rows": [
+                {
+                    "post_id": 1,
+                    "user_id": 3
+                }
+            ],
+            "table_name": "user_posts"
+        },
+        {
+            "columns": [
+                {
+                    "name": "id",
+                    "properties": [
+                        "PRIMARY KEY",
+                        "AUTO_INCREMENT"
+                    ],
+                    "type": "int"
+                },
+                {
+                    "name": "test",
+                    "properties": [],
+                    "type": "string"
+                }
+            ],
+            "rows": [
+                {
+                    "id": 1011,
+                    "test": "testowanie!!!"
+                },
+                {
+                    "id": 1011,
+                    "test": "testowanie!!!"
+                },
+                {
+                    "id": 1012,
+                    "test": "as4"
+                },
+                {
+                    "id": 1011,
+                    "test": "testowanie!!!"
+                },
+                {
+                    "id": 1011,
+                    "test": "testowanie!!!"
+                },
+                {
+                    "id": 1011,
+                    "test": "testowanie!!!"
+                }
+            ],
+            "table_name": "test"
+        }
+    ]
+}
